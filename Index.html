@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro para participantes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <form id="registration-form">
+      <h2 class="form-title">Registro para participantes</h2>
+      <div class="form-group">
+        <input type="text" id="company-name" placeholder="Nombre de la compañia" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="cedula" placeholder="Cedula" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="contact-name" placeholder="Nombre de la persona para contacto" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="title" placeholder="Titulo" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Correo electronico" required>
+      </div>
+      <div class="form-group">
+        <input type="tel" id="phone" placeholder="Telefono" required>
+      </div>
+      <div class="form-group">
+        <label for="privacy-policy">
+          <input type="checkbox" id="privacy-policy" required>
+          Acepto los términos de privacidad
+        </label>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="continue-btn" disabled>Continuar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
